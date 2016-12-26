@@ -4,26 +4,8 @@ $(document).ready(function() {
   // when we try to bind to them
 
   // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
-  // Home()
   toggle()
 });
-
-var Home = function(){
-    $("#home").on("click",function(e){
-      // e.preventDefault()
-      console.log("YES")
-      var url = $(this).attr("href")
-      var method = "GET"
-      $.ajax({
-      	url: url,
-      	method: method
-      }).done(function(res){
-      	console.log(res)
-    	$("body").html(res)
-  })
-
-      });
-}
 
 
 var toggle = function(){
