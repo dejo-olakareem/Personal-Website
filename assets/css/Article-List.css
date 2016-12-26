@@ -85,21 +85,19 @@ img {
   padding-bottom:20px;
 }
 
-img.pic {
-}
 
-div#act {
+#act {
   text-align:center;
 }
 
-ul#move.nav.nav-tabs {
+#move .nav .nav-tabs {
   text-align:center;
 }
 
-div#nav-bar {
+#nav-bar {
   text-align:center;
 }
 
-p#alpha {
+#alpha {
 }
 
